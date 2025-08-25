@@ -1,7 +1,7 @@
 {
   "name": "RadiOnline Radio Player",
   "short_name": "RadiOnline",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0f2027",
   "theme_color": "#303c49",
@@ -17,4 +17,5 @@
       "type": "image/png"
     }
   ]
+
 }
