@@ -1,13 +1,12 @@
-const CACHE_NAME = 'radio-player-v4';
+const CACHE_NAME = 'radio-player-v6';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/1.jpg',
-  '/2.jpg',
-  '/logo.png',
-  '/live-cover.jpg',
-  '/default-cover.jpg'
+  './index.html',
+  './manifest.json',
+  './1.jpg',
+  './2.jpg',
+  './logo.png',
+  './live-cover.jpg',
+  './default-cover.jpg'
 ];
 
 // Установка Service Worker
