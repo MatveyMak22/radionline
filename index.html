@@ -6,6 +6,7 @@
   <title>RadiOnline</title>
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#303c49">
+  <link rel="apple-touch-icon" href="./2.jpg">
   <style>
     * {
       margin: 0;
@@ -205,7 +206,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">RMRP Radio Player • EMC digital</div>
+    <div class="footer"> • RMRP Radio Player • </div>
   </div>
 
   <!-- Аудио элемент (скрыт, но работает) -->
@@ -269,7 +270,8 @@
             song.title.includes('Live') ||
             song.title === 'On Air' ||
             song.title.includes('DJ Live') ||
-            song.title.includes('В ЭФИРЕ')
+            song.title.includes('В ЭФИРЕ') ||
+            song.title.includes('OnAir')
           );
           
           if (isLive) {
